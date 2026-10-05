@@ -43,6 +43,7 @@ All three algorithms were evaluated over the same 50 random start/end pairs:
 | **Shortest Route Found (%)** | 52.0% | 38.0% | **100.0%** |
 | **Avg. Compute Time (ms)** | 0.23 ms | **0.08 ms** | 0.19 ms |
 
+
 ### Analysis
 
 1. **A* matches optimal distance with 68% fewer nodes than BFS:** BFS expands blindly in all directions, checking roughly 350 nodes per trip. By using the Haversine heuristic to bias the search toward the destination, A* cuts exploration down to 110 nodes while guaranteeing the shortest path every time.
