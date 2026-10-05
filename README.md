@@ -1,7 +1,7 @@
 ```markdown
 # Gbege Free
 
-Route planner that compares BFS, Greedy Best-First, and A* on real Lagos roads. Built as my capstone project for CS50 AI.
+Route planner that compares BFS, Greedy Best-First, and A* on real Lagos roads. Built as my capstone project for CS50 Introduction to Artificial int.
 
 "Gbege" is Nigerian Pidgin for hassle or trouble — so the goal here is hassle-free routing.
 
@@ -121,8 +121,3 @@ To re-run the 50-trip benchmark and generate a fresh `benchmarks/results.csv`:
 ```bash
 python -m benchmarks.run_benchmark
 
-```
-
-```
-
-```
